@@ -1,7 +1,10 @@
 /* src/App.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 /* Загальні змінні кольорів для легкого налаштування теми */
-:root {
+:root {body {
+  font-family: 'Dancing Script', cursive; /* Застосовуємо шрифт до всього тіла документа */
+}
+
   --primary-color: #007bff; /* Основний акцентний колір (синій) */
   --accent-color: #6c757d; /* Додатковий акцентний колір (сірий) */
   --text-color-dark: #333; /* Темний текст */
